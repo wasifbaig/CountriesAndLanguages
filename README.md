@@ -12,23 +12,20 @@ composer install
 case 1
 ------
 php main.php spain
-output
------
+output :
 Country language code: es
 Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..
 
 case 2
 -------
 php main.php Spain Englang
-output
-------
+output:
 Spain and England do not speak the same language
 
 case 3
 ------
 php main.php Germany Austria
-output
-------
+output:
 Germany and Austria speak the same language: de
 
 4. Run test cases <br/>
