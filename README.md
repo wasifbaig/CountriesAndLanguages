@@ -11,22 +11,22 @@ composer install
 
 case 1
 ------
-php main.php spain
-output :
-Country language code: es
-Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..
+php main.php spain <br/>
+output : <br/>
+Country language code: es  <br/> 
+Spain speaks same language with these countries: Uruguay, Bolivia, Argentina..  <br/>
 
 case 2
 -------
-php main.php Spain Englang
-output:
-Spain and England do not speak the same language
+php main.php Spain Englang <br/>
+output: <br/>
+Spain and England do not speak the same language <br/>
 
 case 3
 ------
-php main.php Germany Austria
-output:
-Germany and Austria speak the same language: de
+php main.php Germany Austria  <br/>
+output:  <br/>
+Germany and Austria speak the same language: de  <br/>
 
 4. Run test cases <br/>
 php vendor/phpunit/phpunit/phpunit
